@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+    <link rel="stylesheet" href="css/style.css?v=<?php echo time(); ?>">
+    <title>Movies Gate</title>
+    <meta name="description" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="" />
+    <link rel="shortcut icon" href="images/favicon.png" />
+
+
+
+</head>
+
+<body>
+    <!-- start header -->
+    <section class="header">
+        <div class="parent_container">
+            <div class="content">
+                <div class="logo" data-aos="fade-down" data-aos-duration="1500">
+                    <a href="#"><img src="images/logo-movies.png" alt="">Movies Gate</a>
+                </div>
+                <div class="search-bar hide_bar">
+                    <div class="search-container">
+                        <input type="text" id="movieSearch" placeholder="Search for a movie..." />
+                        <span class="search-icon">
+                            <i class="fas fa-search"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="navbar" data-aos="fade-down" data-aos-duration="1500">
+                    <ul>
+                        <li style="display:none;" class="search_icon"><i class="fas fa-search"></i></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end header -->
+
+
+
+
+
+    <!-- start slider -->
+    <section class="section_slider hide_search">
+        <div class="parent_container">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="images/02.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/01.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/03.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="images/02.jpg" alt="">
+                    </div>
+                </div>
+                <!-- Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        <div class="prs_slider_overlay"></div>
+    </section>
+    <!-- end slider -->
+
+    <!-- start section most viewed -->
+    <section class="section_most_viewed hide_search">
+        <div class="parent_container">
+            <div class="titre" data-aos="fade-down" data-aos-duration="1500">
+                <span>Most Viewed</span>
+            </div>
+            <div class="content">
+                <div class="div-cards slider-must-viewd">
+                    <div class="my-card" data-aos="zoom-in" data-aos-duration="1000">
+                        <div class="div-image">
+                            <img src="images/up1.jpg" alt="">
+                        </div>
+                        <div class="div-infos">
+                            <div class="titre-movie">
+                                <span class="titre">Busting Car</span>
+                                <span class="info-movie">Drama, Action</span>
+                            </div>
+                            <div class="stars">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star-empty.png" alt="">
+                            </div>
+                            <div class="my-btn">
+                                <a href="#" class="hvr-radial-out"><img src="images/seen.png" alt=""> Watch</a>
+                                <a href="#" class="hvr-radial-out download"><img src="images/download.png" alt="">
+                                    Download</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="my-card" data-aos="zoom-in" data-aos-duration="1000">
+                        <div class="div-image">
+                            <img src="images/up2.jpg" alt="">
+                        </div>
+                        <div class="div-infos">
+                            <div class="titre-movie">
+                                <span class="titre">Busting Car</span>
+                                <span class="info-movie">Drama, Action</span>
+                            </div>
+                            <div class="stars">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star-empty.png" alt="">
+                            </div>
+                            <div class="my-btn">
+                                <a href="#" class="hvr-radial-out"><img src="images/seen.png" alt=""> Watch</a>
+                                <a href="#" class="hvr-radial-out download"><img src="images/download.png" alt="">
+                                    Download</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="my-card" data-aos="zoom-in" data-aos-duration="1000">
+                        <div class="div-image">
+                            <img src="images/up3.jpg" alt="">
+                        </div>
+                        <div class="div-infos">
+                            <div class="titre-movie">
+                                <span class="titre">Busting Car</span>
+                                <span class="info-movie">Drama, Action</span>
+                            </div>
+                            <div class="stars">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star-empty.png" alt="">
+                            </div>
+                            <div class="my-btn">
+                                <a href="#" class="hvr-radial-out"><img src="images/seen.png" alt=""> Watch</a>
+                                <a href="#" class="hvr-radial-out download"><img src="images/download.png" alt="">
+                                    Download</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="my-card" data-aos="zoom-in" data-aos-duration="1000">
+                        <div class="div-image">
+                            <img src="images/up4.jpg" alt="">
+                        </div>
+                        <div class="div-infos">
+                            <div class="titre-movie">
+                                <span class="titre">Busting Car</span>
+                                <span class="info-movie">Drama, Action</span>
+                            </div>
+                            <div class="stars">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star-empty.png" alt="">
+                            </div>
+                            <div class="my-btn">
+                                <a href="#" class="hvr-radial-out"><img src="images/seen.png" alt=""> Watch</a>
+                                <a href="#" class="hvr-radial-out download"><img src="images/download.png" alt="">
+                                    Download</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="my-card" data-aos="zoom-in" data-aos-duration="1000">
+                        <div class="div-image">
+                            <img src="images/up3.jpg" alt="">
+                        </div>
+                        <div class="div-infos">
+                            <div class="titre-movie">
+                                <span class="titre">Busting Car</span>
+                                <span class="info-movie">Drama, Action</span>
+                            </div>
+                            <div class="stars">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star-empty.png" alt="">
+                            </div>
+                            <div class="my-btn">
+                                <a href="#" class="hvr-radial-out"><img src="images/seen.png" alt=""> Watch</a>
+                                <a href="#" class="hvr-radial-out download"><img src="images/download.png" alt="">
+                                    Download</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="my-card" data-aos="zoom-in" data-aos-duration="1000">
+                        <div class="div-image">
+                            <img src="images/up4.jpg" alt="">
+                        </div>
+                        <div class="div-infos">
+                            <div class="titre-movie">
+                                <span class="titre">Busting Car</span>
+                                <span class="info-movie">Drama, Action</span>
+                            </div>
+                            <div class="stars">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star-empty.png" alt="">
+                            </div>
+                            <div class="my-btn">
+                                <a href="#" class="hvr-radial-out"><img src="images/seen.png" alt=""> Watch</a>
+                                <a href="#" class="hvr-radial-out download"><img src="images/download.png" alt="">
+                                    Download</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end section must popular -->
+
+    <!-- start section most viewed -->
+    <section class="section_most_viewed">
+        <div class="parent_container">
+            <div class="titre" data-aos="fade-down" data-aos-duration="1500">
+                <span>Web movies</span>
+            </div>
+
+            <div class="content">
+                <div class="div-cards div-search">
+                    <div class="my-card">
+                        <div class="div-image">
+                            <img src="images/up5.jpg" alt="">
+                        </div>
+                        <div class="div-infos">
+                            <div class="titre-movie">
+                                <span class="titre">tytyusting Car</span>
+                                <span class="info-movie">Drama, Action</span>
+                            </div>
+                            <div class="stars">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star-empty.png" alt="">
+                            </div>
+                            <div class="my-btn">
+                                <a href="#" class="hvr-radial-out"><img src="images/seen.png" alt=""> Watch</a>
+                                <a href="#" class="hvr-radial-out download"><img src="images/download.png" alt="">
+                                    Download</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="my-card">
+                        <div class="div-image">
+                            <img src="images/up6.jpg" alt="">
+                        </div>
+                        <div class="div-infos">
+                            <div class="titre-movie">
+                                <span class="titre">hhsting Car</span>
+                                <span class="info-movie">Drama, Action</span>
+                            </div>
+                            <div class="stars">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star-empty.png" alt="">
+                            </div>
+                            <div class="my-btn">
+                                <a href="#" class="hvr-radial-out"><img src="images/seen.png" alt=""> Watch</a>
+                                <a href="#" class="hvr-radial-out download"><img src="images/download.png" alt="">
+                                    Download</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="my-card">
+                        <div class="div-image">
+                            <img src="images/up7.jpg" alt="">
+                        </div>
+                        <div class="div-infos">
+                            <div class="titre-movie">
+                                <span class="titre">Busting Car</span>
+                                <span class="info-movie">Drama, Action</span>
+                            </div>
+                            <div class="stars">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star-empty.png" alt="">
+                            </div>
+                            <div class="my-btn">
+                                <a href="#" class="hvr-radial-out"><img src="images/seen.png" alt=""> Watch</a>
+                                <a href="#" class="hvr-radial-out download"><img src="images/download.png" alt="">
+                                    Download</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="my-card">
+                        <div class="div-image">
+                            <img src="images/up8.jpg" alt="">
+                        </div>
+                        <div class="div-infos">
+                            <div class="titre-movie">
+                                <span class="titre">Busting Car</span>
+                                <span class="info-movie">Drama, Action</span>
+                            </div>
+                            <div class="stars">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star-empty.png" alt="">
+                            </div>
+                            <div class="my-btn">
+                                <a href="#" class="hvr-radial-out"><img src="images/seen.png" alt=""> Watch</a>
+                                <a href="#" class="hvr-radial-out download"><img src="images/download.png" alt="">
+                                    Download</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="my-card">
+                        <div class="div-image">
+                            <img src="images/up1.jpg" alt="">
+                        </div>
+                        <div class="div-infos">
+                            <div class="titre-movie">
+                                <span class="titre">Busting Car</span>
+                                <span class="info-movie">Drama, Action</span>
+                            </div>
+                            <div class="stars">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star-empty.png" alt="">
+                            </div>
+                            <div class="my-btn">
+                                <a href="#" class="hvr-radial-out"><img src="images/seen.png" alt=""> Watch</a>
+                                <a href="#" class="hvr-radial-out download"><img src="images/download.png" alt="">
+                                    Download</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="my-card">
+                        <div class="div-image">
+                            <img src="images/up2.jpg" alt="">
+                        </div>
+                        <div class="div-infos">
+                            <div class="titre-movie">
+                                <span class="titre">Busting Car</span>
+                                <span class="info-movie">Drama, Action</span>
+                            </div>
+                            <div class="stars">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star-empty.png" alt="">
+                            </div>
+                            <div class="my-btn">
+                                <a href="#" class="hvr-radial-out"><img src="images/seen.png" alt=""> Watch</a>
+                                <a href="#" class="hvr-radial-out download"><img src="images/download.png" alt="">
+                                    Download</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="my-card">
+                        <div class="div-image">
+                            <img src="images/up3.jpg" alt="">
+                        </div>
+                        <div class="div-infos">
+                            <div class="titre-movie">
+                                <span class="titre">Busting Car</span>
+                                <span class="info-movie">Drama, Action</span>
+                            </div>
+                            <div class="stars">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star-empty.png" alt="">
+                            </div>
+                            <div class="my-btn">
+                                <a href="#" class="hvr-radial-out"><img src="images/seen.png" alt=""> Watch</a>
+                                <a href="#" class="hvr-radial-out download"><img src="images/download.png" alt="">
+                                    Download</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="my-card">
+                        <div class="div-image">
+                            <img src="images/up4.jpg" alt="">
+                        </div>
+                        <div class="div-infos">
+                            <div class="titre-movie">
+                                <span class="titre">Busting Car</span>
+                                <span class="info-movie">Drama, Action</span>
+                            </div>
+                            <div class="stars">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star-empty.png" alt="">
+                            </div>
+                            <div class="my-btn">
+                                <a href="#" class="hvr-radial-out"><img src="images/seen.png" alt=""> Watch</a>
+                                <a href="#" class="hvr-radial-out download"><img src="images/download.png" alt="">
+                                    Download</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="watchmore my-btn">
+                    <a href="#" class="hvr-radial-out">View All</a>
+                </div>
+                <div class="div-cards div-search" id="toggle-cards" style="display: none;">
+                    <div class="my-card" data-aos="zoom-in" data-aos-duration="1000">
+                        <div class="div-image">
+                            <img src="images/up5.jpg" alt="">
+                        </div>
+                        <div class="div-infos">
+                            <div class="titre-movie">
+                                <span class="titre">Busting Car</span>
+                                <span class="info-movie">Drama, Action</span>
+                            </div>
+                            <div class="stars">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star-empty.png" alt="">
+                            </div>
+                            <div class="my-btn">
+                                <a href="#" class="hvr-radial-out"><img src="images/seen.png" alt=""> Watch</a>
+                                <a href="#" class="hvr-radial-out download"><img src="images/download.png" alt="">
+                                    Download</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="my-card" data-aos="zoom-in" data-aos-duration="1000">
+                        <div class="div-image">
+                            <img src="images/up6.jpg" alt="">
+                        </div>
+                        <div class="div-infos">
+                            <div class="titre-movie">
+                                <span class="titre">Busting Car</span>
+                                <span class="info-movie">Drama, Action</span>
+                            </div>
+                            <div class="stars">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star-empty.png" alt="">
+                            </div>
+                            <div class="my-btn">
+                                <a href="#" class="hvr-radial-out"><img src="images/seen.png" alt=""> Watch</a>
+                                <a href="#" class="hvr-radial-out download"><img src="images/download.png" alt="">
+                                    Download</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="my-card" data-aos="zoom-in" data-aos-duration="1000">
+                        <div class="div-image">
+                            <img src="images/up7.jpg" alt="">
+                        </div>
+                        <div class="div-infos">
+                            <div class="titre-movie">
+                                <span class="titre">Busting Car</span>
+                                <span class="info-movie">Drama, Action</span>
+                            </div>
+                            <div class="stars">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star-empty.png" alt="">
+                            </div>
+                            <div class="my-btn">
+                                <a href="#" class="hvr-radial-out"><img src="images/seen.png" alt=""> Watch</a>
+                                <a href="#" class="hvr-radial-out download"><img src="images/download.png" alt="">
+                                    Download</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="my-card" data-aos="zoom-in" data-aos-duration="1000">
+                        <div class="div-image">
+                            <img src="images/up8.jpg" alt="">
+                        </div>
+                        <div class="div-infos">
+                            <div class="titre-movie">
+                                <span class="titre">Busting Car</span>
+                                <span class="info-movie">Drama, Action</span>
+                            </div>
+                            <div class="stars">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star-empty.png" alt="">
+                            </div>
+                            <div class="my-btn">
+                                <a href="#" class="hvr-radial-out"><img src="images/seen.png" alt=""> Watch</a>
+                                <a href="#" class="hvr-radial-out download"><img src="images/download.png" alt="">
+                                    Download</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="my-card" data-aos="zoom-in" data-aos-duration="1000">
+                        <div class="div-image">
+                            <img src="images/up1.jpg" alt="">
+                        </div>
+                        <div class="div-infos">
+                            <div class="titre-movie">
+                                <span class="titre">Busting Car</span>
+                                <span class="info-movie">Drama, Action</span>
+                            </div>
+                            <div class="stars">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star-empty.png" alt="">
+                            </div>
+                            <div class="my-btn">
+                                <a href="#" class="hvr-radial-out"><img src="images/seen.png" alt=""> Watch</a>
+                                <a href="#" class="hvr-radial-out download"><img src="images/download.png" alt="">
+                                    Download</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="my-card" data-aos="zoom-in" data-aos-duration="1000">
+                        <div class="div-image">
+                            <img src="images/up2.jpg" alt="">
+                        </div>
+                        <div class="div-infos">
+                            <div class="titre-movie">
+                                <span class="titre">Busting Car</span>
+                                <span class="info-movie">Drama, Action</span>
+                            </div>
+                            <div class="stars">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star-empty.png" alt="">
+                            </div>
+                            <div class="my-btn">
+                                <a href="#" class="hvr-radial-out"><img src="images/seen.png" alt=""> Watch</a>
+                                <a href="#" class="hvr-radial-out download"><img src="images/download.png" alt="">
+                                    Download</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="my-card" data-aos="zoom-in" data-aos-duration="1000">
+                        <div class="div-image">
+                            <img src="images/up3.jpg" alt="">
+                        </div>
+                        <div class="div-infos">
+                            <div class="titre-movie">
+                                <span class="titre">Busting Car</span>
+                                <span class="info-movie">Drama, Action</span>
+                            </div>
+                            <div class="stars">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star-empty.png" alt="">
+                            </div>
+                            <div class="my-btn">
+                                <a href="#" class="hvr-radial-out"><img src="images/seen.png" alt=""> Watch</a>
+                                <a href="#" class="hvr-radial-out download"><img src="images/download.png" alt="">
+                                    Download</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="my-card" data-aos="zoom-in" data-aos-duration="1000">
+                        <div class="div-image">
+                            <img src="images/up4.jpg" alt="">
+                        </div>
+                        <div class="div-infos">
+                            <div class="titre-movie">
+                                <span class="titre">Busting Car</span>
+                                <span class="info-movie">Drama, Action</span>
+                            </div>
+                            <div class="stars">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star.png" alt="">
+                                <img src="images/star-empty.png" alt="">
+                            </div>
+                            <div class="my-btn">
+                                <a href="#" class="hvr-radial-out"><img src="images/seen.png" alt=""> Watch</a>
+                                <a href="#" class="hvr-radial-out download"><img src="images/download.png" alt="">
+                                    Download</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end section must viewed -->
+
+    <!----start section play video---->
+    <section class="section-play-video">
+        <div class="content">
+            <div class="image">
+                <img src="images/fast.jpg" alt="">
+            </div>
+            <div class="icone-video" id="divPlayVideo">
+                <a id="openBtn" href="https://youtu.be/KCFyo9gB7t8?t=12" data-youtube-id="3Wu2BhFuc4c"
+                    class="btn btn-icon openBtn" target="_blank">
+                    <div class="icone"><i class="fa-regular fa-circle-play"></i></div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!----end section play video---->
+
+    <!-- start section slider infinit -->
+
+    <section class="section section_most_viewed section-slider-infinit">
+        <div class="content">
+            <div class="titre" data-aos="fade-down" data-aos-duration="1500">
+                <span>All movies</span>
+            </div>
+            <div class="slider">
+                <div class="slider-infinit">
+                    <div class="slide">
+                        <div class="my-card">
+                            <div class="div-image">
+                                <img src="images/up5.jpg" alt="">
+                            </div>
+                            <div class="div-infos">
+                                <div class="titre-movie">
+                                    <span class="titre">Busting Car</span>
+                                    <span class="info-movie">Drama, Action</span>
+                                </div>
+                                <div class="stars">
+                                    <img src="images/star.png" alt="">
+                                    <img src="images/star.png" alt="">
+                                    <img src="images/star.png" alt="">
+                                    <img src="images/star-empty.png" alt="">
+                                </div>
+                                <div class="my-btn">
+                                    <a href="#" class="hvr-radial-out"><img src="images/seen.png" alt=""> Watch</a>
+                                    <a href="#" class="hvr-radial-out download"><img src="images/download.png"
+                                            alt="">Download</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="my-card">
+                            <div class="div-image">
+                                <img src="images/up1.jpg" alt="">
+                            </div>
+                            <div class="div-infos">
+                                <div class="titre-movie">
+                                    <span class="titre">Busting Car</span>
+                                    <span class="info-movie">Drama, Action</span>
+                                </div>
+                                <div class="stars">
+                                    <img src="images/star.png" alt="">
+                                    <img src="images/star.png" alt="">
+                                    <img src="images/star.png" alt="">
+                                    <img src="images/star-empty.png" alt="">
+                                </div>
+                                <div class="my-btn">
+                                    <a href="#" class="hvr-radial-out"><img src="images/seen.png" alt=""> Watch</a>
+                                    <a href="#" class="hvr-radial-out download"><img src="images/download.png"
+                                            alt="">Download</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="my-card">
+                            <div class="div-image">
+                                <img src="images/up2.jpg" alt="">
+                            </div>
+                            <div class="div-infos">
+                                <div class="titre-movie">
+                                    <span class="titre">Busting Car</span>
+                                    <span class="info-movie">Drama, Action</span>
+                                </div>
+                                <div class="stars">
+                                    <img src="images/star.png" alt="">
+                                    <img src="images/star.png" alt="">
+                                    <img src="images/star.png" alt="">
+                                    <img src="images/star-empty.png" alt="">
+                                </div>
+                                <div class="my-btn">
+                                    <a href="#" class="hvr-radial-out"><img src="images/seen.png" alt=""> Watch</a>
+                                    <a href="#" class="hvr-radial-out download"><img src="images/download.png"
+                                            alt="">Download</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="my-card">
+                            <div class="div-image">
+                                <img src="images/up3.jpg" alt="">
+                            </div>
+                            <div class="div-infos">
+                                <div class="titre-movie">
+                                    <span class="titre">Busting Car</span>
+                                    <span class="info-movie">Drama, Action</span>
+                                </div>
+                                <div class="stars">
+                                    <img src="images/star.png" alt="">
+                                    <img src="images/star.png" alt="">
+                                    <img src="images/star.png" alt="">
+                                    <img src="images/star-empty.png" alt="">
+                                </div>
+                                <div class="my-btn">
+                                    <a href="#" class="hvr-radial-out"><img src="images/seen.png" alt=""> Watch</a>
+                                    <a href="#" class="hvr-radial-out download"><img src="images/download.png"
+                                            alt="">Download</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="my-card">
+                            <div class="div-image">
+                                <img src="images/up4.jpg" alt="">
+                            </div>
+                            <div class="div-infos">
+                                <div class="titre-movie">
+                                    <span class="titre">Busting Car</span>
+                                    <span class="info-movie">Drama, Action</span>
+                                </div>
+                                <div class="stars">
+                                    <img src="images/star.png" alt="">
+                                    <img src="images/star.png" alt="">
+                                    <img src="images/star.png" alt="">
+                                    <img src="images/star-empty.png" alt="">
+                                </div>
+                                <div class="my-btn">
+                                    <a href="#" class="hvr-radial-out"><img src="images/seen.png" alt=""> Watch</a>
+                                    <a href="#" class="hvr-radial-out download"><img src="images/download.png"
+                                            alt="">Download</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="my-card">
+                            <div class="div-image">
+                                <img src="images/up6.jpg" alt="">
+                            </div>
+                            <div class="div-infos">
+                                <div class="titre-movie">
+                                    <span class="titre">Busting Car</span>
+                                    <span class="info-movie">Drama, Action</span>
+                                </div>
+                                <div class="stars">
+                                    <img src="images/star.png" alt="">
+                                    <img src="images/star.png" alt="">
+                                    <img src="images/star.png" alt="">
+                                    <img src="images/star-empty.png" alt="">
+                                </div>
+                                <div class="my-btn">
+                                    <a href="#" class="hvr-radial-out"><img src="images/seen.png" alt=""> Watch</a>
+                                    <a href="#" class="hvr-radial-out download"><img src="images/download.png"
+                                            alt="">Download</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="my-card">
+                            <div class="div-image">
+                                <img src="images/up7.jpg" alt="">
+                            </div>
+                            <div class="div-infos">
+                                <div class="titre-movie">
+                                    <span class="titre">Busting Car</span>
+                                    <span class="info-movie">Drama, Action</span>
+                                </div>
+                                <div class="stars">
+                                    <img src="images/star.png" alt="">
+                                    <img src="images/star.png" alt="">
+                                    <img src="images/star.png" alt="">
+                                    <img src="images/star-empty.png" alt="">
+                                </div>
+                                <div class="my-btn">
+                                    <a href="#" class="hvr-radial-out"><img src="images/seen.png" alt=""> Watch</a>
+                                    <a href="#" class="hvr-radial-out download"><img src="images/download.png"
+                                            alt="">Download</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="my-card">
+                            <div class="div-image">
+                                <img src="images/up8.jpg" alt="">
+                            </div>
+                            <div class="div-infos">
+                                <div class="titre-movie">
+                                    <span class="titre">Busting Car</span>
+                                    <span class="info-movie">Drama, Action</span>
+                                </div>
+                                <div class="stars">
+                                    <img src="images/star.png" alt="">
+                                    <img src="images/star.png" alt="">
+                                    <img src="images/star.png" alt="">
+                                    <img src="images/star-empty.png" alt="">
+                                </div>
+                                <div class="my-btn">
+                                    <a href="#" class="hvr-radial-out"><img src="images/seen.png" alt=""> Watch</a>
+                                    <a href="#" class="hvr-radial-out download"><img src="images/download.png"
+                                            alt="">Download</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- end section slider infinit -->
+
+
+
+    <!-- video modal -->
+    <section class="video-modal">
+
+        <!-- Modal Content Wrapper -->
+        <div id="video-modal-content" class="video-modal-content">
+
+            <!-- iframe -->
+            <iframe id="youtube" width="100%" height="100%" frameborder="0" allow="autoplay" allowfullscreen
+                src=></iframe>
+
+
+            <a href="#" class="close-video-modal">
+                <!-- X close video icon -->
+                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0"
+                    y="0" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve" width="24"
+                    height="24">
+
+                    <g id="icon-x-close">
+                        <path fill="#ffffff"
+                            d="M30.3448276,31.4576271 C29.9059965,31.4572473 29.4852797,31.2855701 29.1751724,30.980339 L0.485517241,2.77694915 C-0.122171278,2.13584324 -0.104240278,1.13679247 0.52607603,0.517159487 C1.15639234,-0.102473494 2.17266813,-0.120100579 2.82482759,0.477288136 L31.5144828,28.680678 C31.9872448,29.1460053 32.1285698,29.8453523 31.8726333,30.4529866 C31.6166968,31.0606209 31.0138299,31.4570487 30.3448276,31.4576271 Z"
+                            id="Shape"></path>
+                        <path fill="#ffffff"
+                            d="M1.65517241,31.4576271 C0.986170142,31.4570487 0.383303157,31.0606209 0.127366673,30.4529866 C-0.12856981,29.8453523 0.0127551942,29.1460053 0.485517241,28.680678 L29.1751724,0.477288136 C29.8273319,-0.120100579 30.8436077,-0.102473494 31.473924,0.517159487 C32.1042403,1.13679247 32.1221713,2.13584324 31.5144828,2.77694915 L2.82482759,30.980339 C2.51472031,31.2855701 2.09400353,31.4572473 1.65517241,31.4576271 Z"
+                            id="Shape"></path>
+                    </g>
+
+                </svg>
+            </a>
+
+        </div><!-- end modal content wrapper -->
+
+
+        <!-- clickable overlay element -->
+        <div class="overlay"></div>
+
+
+    </section>
+
+    <!-- start footer -->
+    <section class="section section-footer">
+        <div class="parent_container">
+            <div class="content">
+                <div class="logo">
+                    <a href="#"><img src="images/logo-movies.png" alt="">Movies Gate</a>
+                </div>
+                <div class="navbar">
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="copyright">
+                    <div class="text">
+                        <span>Copyright 2025-26 <span class="color">Movies Gate</span> . All rights reserved </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end footer -->
+
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="slick/slick.js"></script>
+    <script src="slick/slick.min.js"></script>
+
+    <script>
+        AOS.init();
+        AOS.init({
+            disable: 'mobile'
+        });
+    </script>
+    <script src="js/main.js?version=<?php echo time(); ?>"></script>
+</body>
+
+</html>
