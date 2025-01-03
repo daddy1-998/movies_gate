@@ -1020,7 +1020,7 @@ section.section-play-video .icone-video .icone i {
 
     .search-bar {
         position: absolute;
-        width: 95%;
+        width: 26%;
         left: 50%;
         transform: translateX(-50%);
         z-index: 9;
