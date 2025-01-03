@@ -186,11 +186,11 @@ document.addEventListener('DOMContentLoaded', function () {
           event.stopPropagation(); 
       });
 
-      document.addEventListener('click', function (event) {
-          if (!hideBar.contains(event.target) && !searchIcon.contains(event.target)) {
-              hideBar.style.display = 'none';
-          }
-      });
+      // document.addEventListener('click', function (event) {
+      //     if (!hideBar.contains(event.target) && !searchIcon.contains(event.target)) {
+      //         hideBar.style.display = 'none';
+      //     }
+      // });
   }
 });
 
